@@ -25,15 +25,15 @@ The CC1110 has for years been the workhorse of radio communications found in tho
 I have tried to put together a group a example code that give you the building blocks for any RF based IoT project. I also included the TI example code that DOES NOT compile on SDCC but is there for reference if you need more examples.
 
 Here is a list of the examples I developed that are supported by SDCC:
- * Blink - Uses a GPIO output pin to blink an LED and a delay function to delay teh CPU between blinks
- * Helloworld -  Transmits a clear text message "HELLO" every second over RF
- * Radio - Can be compiled as a Transmitter or Receiver and can be used to program two cc1110 chips to communicate from sender to receiver. The receiver blinks the LED whenever it receives a packet from the sender
- * Rf2Serial - Converts incoming RF packet to output to UART (Serial port). You can use the Helloworld or Radio examples to transmit data and RF2Serial to view the data using a serial port monitor 
- * Flash - show you how to store data in the flash memory that persists after power off and read the data back from flash and output the data to a serial port
- * Pm - Is the TI Powermode 3 example converted for SDCC and demonstrates how the chip can be put to sleep an awakened by external interrupt 
- * Sleep - is an example of using a timer to wake the chip from sleep after a time period
- * Uart - is an example on how to output data to one of the chips 2 serial ports
- * MAX7219 - Is an example of how to interface to a SPI compatible device. This example uses the MAX7219 8 digit display.
+ * **Blink** - Uses a GPIO output pin to blink an LED and a delay function to delay teh CPU between blinks
+ * **Helloworld** -  Transmits a clear text message "HELLO" every second over RF
+ * **Radio** - Can be compiled as a Transmitter or Receiver and can be used to program two cc1110 chips to communicate from sender to receiver. The receiver blinks the LED whenever it receives a packet from the sender
+ * **Rf2Serial** - Converts incoming RF packet to output to UART (Serial port). You can use the Helloworld or Radio examples to transmit data and RF2Serial to view the data using a serial port monitor 
+ * **Flash** - shows you how to store data in the flash memory that persists after power off and read the data back from flash and output the data to a serial port
+ * **Pm** - Is the TI Powermode 3 example converted for SDCC and demonstrates how the chip can be put to sleep an awakened by external interrupt 
+ * **Sleep** - is an example of using a timer to wake the chip from sleep after a time period
+ * **Uart** - is an example on how to output data to one of the chips 2 serial ports
+ * **MAX7219** - Is an example of how to interface to a SPI compatible device. This example uses the MAX7219 8 digit display.
 
 
 # CC1110 Features
