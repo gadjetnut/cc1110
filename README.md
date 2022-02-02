@@ -6,7 +6,7 @@ Texas Instruments CC1110 is a powerful RF "system on a chip" (SOC) that brings t
 
 The CC1110 has for years been the workhorse of radio communications found in thousands of commercial applications from remotes, to walkie talkies to hospital equipment. This chip has generally been out of reach to the Maker and University communities due to the expensive development environments. However through this repository you should be able to quickly build RF projects using the free and opensource SDCC compiler.
 
-**Some of the features I love**
+**Some of the features I love in the CC1110**
 * You will struggle to find a microprocessor and RF all on one chip at this price point (~$5 boards on Aliexpress or Ebay). Many of the RF modules out there require an external microprocessor, like an Arduino, but this chip gives you some of the features of microprocessor coupled with industry leading RF capability.  
 * Lowest power microprocessor on the market by far. In full sleep mode (three are 3 modes) it consumes only 0.3 μA .. yes that's 0.3
 * Excellent documentation. TI is known for its documentation and this is no exception (documentation included in the this repository)
