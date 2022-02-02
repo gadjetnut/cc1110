@@ -2,7 +2,7 @@
 An group of examples for development on CC1110 using SDCC compiler
 
 # Introduction
-Texas Instrument CC1110 is a powerful RF "system on a chip" (SOC) that brings together microprocessing power and radio communications all in one extremely low power chip. 
+Texas Instruments CC1110 is a powerful RF "system on a chip" (SOC) that brings together microprocessing power and radio communications all in one extremely low power chip. 
 
 The CC1110 has for years been the workhorse of radio communications found in thousands of commercial applications from remotes, to walkie talkies to hospital equipment. This chip has generally been out of reach to the Maker and University communities due to the expensive development environments. However through this repository you should be able to quickly build RF projects using the free and opensource SDCC compiler.
 
