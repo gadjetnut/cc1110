@@ -16,7 +16,7 @@ The CC1110 has for years been the workhorse of radio communications found in tho
 * There are a ton of interrupts and a number of our examples show you how to use them 
 
 **Some of the things I don't love about cc1110**
-* Its based on 8051 architecture (circa 1981 technology) and that means its not the easiest thing to program. On the flip side they have added a ton of built in peripherals (see below). However couple it with a circa 2020 lithium battery to the 1981 CPU and you get ALOT of battery life.
+* Its based on 8051 architecture (circa 1981!) and that means its not the easiest thing to program. On the flip side they have added a ton of built in peripherals (see below). However couple it with a circa 2020 lithium battery to the 1981 CPU and you get ALOT of battery life.
 * No opensource debugger. A blinking LED is your new best friend.
 * No support for Strings, sprintf etc.. so if you are an Arduino developer then you will go through a period of adjustment to basic c dev :-)
 
