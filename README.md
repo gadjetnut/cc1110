@@ -38,7 +38,7 @@ Here is a list of the examples I developed that are supported by SDCC:
 # How to compile
 I do all my dev on a Windows PC in VS-Code but run WSL in a terminal window that gives me a Linux distro (pick the one you want e.g. Debiana nd Ununtu) that I use for compiling. You can eun Linux on Windows 10 for free which has been great.
 
-Install SDCC from their website and follow their instructions but it shoudl be as easy as :
+Install SDCC from their website and follow their instructions for your OS but it should be as easy as :
 
 `sudo apt-get install SDCC`
 
