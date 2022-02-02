@@ -21,8 +21,9 @@ The CC1110 has for years been the workhorse of radio communications found in tho
 * Low current consumption (RX: 16.2 mA @1.2 kBaud, TX: 15.2 mA @ −6 dBm output power)
 * 0.3 μA in PM3 (the operating mode with the lowest power consumption)
 * 0.5 µA in PM2 (operating mode with the second lowest power consumption, timer or external interrupt wakeup)
+* Wide supply voltage range (2.0V - 3.6V) perfect for unregulated battery power supply
 
-** MCU, Memory, and Peripherals **
+**MCU, Memory, and Peripherals**
 * High performance and low power 8051 microcontroller core.
 * Powerful DMA functionality
 * 32 KB in-system programmable flash and 4 KB RAM
