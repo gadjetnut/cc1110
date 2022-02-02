@@ -35,6 +35,20 @@ Here is a list of the examples I developed that are supported by SDCC:
  * **Uart** - is an example on how to output data to one of the chips 2 serial ports
  * **MAX7219** - Is an example of how to interface to a SPI compatible device. This example uses the MAX7219 8 digit display.
 
+# How to compile
+I do all my dev on a Windows PC in VS-Code but run WSL in a terminal window that gives me a Linux distro (pick the one you want e.g. Debiana nd Ununtu) that I use for compiling. You can eun Linux on Windows 10 for free which has been great.
+
+Install SDCC from their website and follow their instructions but it shoudl be as easy as :
+
+`sudo apt-get install SDCC`
+
+Change directory into the examples folder and then into the example you want to compile, and then type:
+
+**`make`**
+
+A makefile is included in each example directory. You might want to checkout the compiler settings for 8051 chips in the makefile. Particularly the Flash exmaple program reserves the first 1k of memory to be used for writing persistent data from the application and then the actual application code starts at location 0x400.
+
+The output is a hex file that you can use to upload to the CC1110 chip.
 
 # CC1110 Features
 
@@ -67,4 +81,5 @@ Here is a list of the examples I developed that are supported by SDCC:
 * Hardware debug support
 * 21 GPIO pins
 * SW compatible with CC2510Fx/CC2511Fx
+
 
