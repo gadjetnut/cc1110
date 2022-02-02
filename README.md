@@ -22,7 +22,7 @@ The CC1110 has for years been the workhorse of radio communications found in tho
 
 **Repository Details**
 
-I have tried to put together a group a example code that give you the building blocks for any RF based IoT project. I included the TI example code that DOES NOT compile on SDCC but is there for reference if you need more examples.
+I have tried to put together a group a example code that give you the building blocks for any RF based IoT project. I also included the TI example code that DOES NOT compile on SDCC but is there for reference if you need more examples.
 
 Here is a list of the examples I developed that are supported by SDCC:
  * Blink - Uses a GPIO output pin to blink an LED and a delay function to delay teh CPU between blinks
