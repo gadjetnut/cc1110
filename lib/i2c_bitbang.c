@@ -2,58 +2,6 @@
 #include "i2c_bitbang.h"
 #include <delay.h>
 #include <cc1110.h>
-//#include "cc1110-ext.h"
-
-/*
-#include <stdint.h>
-#include <string.h>
-
-#include "../../lib/radio.h"
-#include "../../lib/clk_mgmt.h"
-#include "../../lib/interrupt.h"
-#include "../../lib/delay.h"
-#include "../../lib/sdcc_dma.h"
-*/
-
-void set_sda_high(void){
-	I2C_SDA=1;
-    P0DIR |= (0<<6);  //0=Input;              1=Output; VAL<<PIN
-}
-
-void set_scl_high(void){
-    I2C_SCL=1;
-	P0DIR |= (0<<7);  //0=Input;              1=Output; VAL<<PIN
-}
-
-void set_sda_low(){
-  I2C_SDA=0;
-}
-
-void set_scl_low(){
-  I2C_SCL=0;
-}
-
-void set_sda_conf_low(void){
-	P0DIR |= (1<<6);  //0=Input;              1=Output; VAL<<PIN
-    I2C_SDA=0;    
-}
-
-uint8_t get_sda_conf(void){
-  return(I2C_SDA);
-}
-
-uint8_t get_scl_conf(void){
-  return(I2C_SCL);
-}
-
-void set_scl_conf_low(void){
-	P0DIR |= (1<<7);  //0=Input;              1=Output; VAL<<PIN
-    I2C_SCL=0;    
-}
-
-void sda_ack(uint8_t ack){
-    I2C_SDA=ack;
-}
 
 void SDA_OPEN(void){
 	I2C_SDA=1;
