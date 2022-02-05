@@ -1,0 +1,804 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  l_BIT_BANK                      
+C:   00000000  l_BSEG                          
+C:   00000000  l_BSEG_BYTES                    
+C:   00000000  l_CABS                          
+C:   00000000  l_GSINIT1                       
+C:   00000000  l_GSINIT5                       
+C:   00000000  l_IABS                          
+C:   00000000  l_ISEG                          
+C:   00000000  l_PSEG                          
+C:   00000000  l_REG_BANK_1                    
+C:   00000000  l_REG_BANK_2                    
+C:   00000000  l_REG_BANK_3                    
+C:   00000000  l_RSEG                          
+C:   00000000  l_RSEG0                         
+C:   00000000  l_RSEG1                         
+C:   00000000  l_XABS                          
+C:   00000000  l_XINIT                         
+C:   00000000  l_XISEG                         
+C:   00000000  l__CODE                         
+C:   00000000  s_BSEG                          
+C:   00000000  s_CABS                          
+C:   00000000  s_DSEG                          
+C:   00000000  s_HOME                          
+C:   00000000  s_IABS                          
+C:   00000000  s_ISEG                          
+C:   00000000  s_REG_BANK_0                    
+C:   00000000  s_RSEG                          
+C:   00000000  s_RSEG0                         
+C:   00000000  s_RSEG1                         
+C:   00000000  s_XABS                          
+C:   00000003  l_GSFINAL                       
+C:   00000003  l_GSINIT0                       
+C:   00000006  l_CONST                         
+C:   00000008  l_REG_BANK_0                    
+C:   00000008  s_REG_BANK_1                    
+C:   0000000A  l_GSINIT2                       
+C:   0000000B  l_OSEG                          
+C:   0000000C  l_GSINIT                        
+C:   00000010  s_REG_BANK_2                    
+C:   00000011  s_OSEG                          
+C:   00000018  s_BIT_BANK                      
+C:   00000018  s_REG_BANK_3                    
+C:   0000001C  l_XSEG                          
+C:   0000001C  s_SSEG                          
+C:   00000020  s_BSEG_BYTES                    
+C:   00000020  s__CODE                         
+C:   00000022  l_GSINIT3                       
+C:   0000002A  l_GSINIT4                       
+C:   00000080  l_DSEG                          
+C:   00000089  l_HOME                          
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000089  s_GSINIT0                       
+C:   0000008C  s_GSINIT1                       
+C:   0000008C  s_GSINIT2                       
+C:   00000096  s_GSINIT3                       
+C:   000000B8  s_GSINIT4                       
+C:   000000E2  s_GSINIT                        
+C:   000000E2  s_GSINIT5                       
+C:   000000E4  l_SSEG                          
+C:   000000EE  s_GSFINAL                       
+C:   000000F1  s_CSEG                          
+C:   00000100  l_IRAM                          
+C:   000006FE  l_CSEG                          
+C:   000007EF  s_CONST                         
+C:   000007F5  s_XINIT                         
+C:   0000F000  s_PSEG                          
+C:   0000F000  s_XSEG                          
+C:   0000F01C  s_XISEG                         
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           _startup
+     00000080  _P0                                helloworld
+     00000080  _P0_0                              helloworld
+     00000081  _P0_1                              helloworld
+     00000081  _SP                                helloworld
+     00000082  _DPL0                              helloworld
+     00000082  _P0_2                              helloworld
+     00000083  _DPH0                              helloworld
+     00000083  _P0_3                              helloworld
+     00000084  _DPL1                              helloworld
+     00000084  _P0_4                              helloworld
+     00000085  _DPH1                              helloworld
+     00000085  _P0_5                              helloworld
+     00000086  _P0_6                              helloworld
+     00000086  _U0CSR                             helloworld
+     00000087  _P0_7                              helloworld
+     00000087  _PCON                              helloworld
+     00000088  _IT0                               helloworld
+     00000088  _TCON                              helloworld
+     00000089  _P0IFG                             helloworld
+     00000089  _RFTXRXIF                          helloworld
+     0000008A  _IT1                               helloworld
+     0000008A  _P1IFG                             helloworld
+     0000008B  _P2IFG                             helloworld
+     0000008B  _URX0IF                            helloworld
+     0000008C  _PICTL                             helloworld
+     0000008D  _ADCIF                             helloworld
+     0000008D  _P1IEN                             helloworld
+     0000008E  __SFR8E                            helloworld
+     0000008F  _P0INP                             helloworld
+     0000008F  _URX1IF                            helloworld
+     00000090  _P1                                helloworld
+     00000090  _P1_0                              helloworld
+     00000091  _P1_1                              helloworld
+     00000091  _RFIM                              helloworld
+     00000092  _DPS                               helloworld
+     00000092  _P1_2                              helloworld
+     00000093  _MPAGE                             helloworld
+     00000093  _P1_3                              helloworld
+     00000093  __XPAGE                            helloworld
+     00000094  _P1_4                              helloworld
+     00000094  __SFR94                            helloworld
+     00000095  _P1_5                              helloworld
+     00000095  __SFR95                            helloworld
+     00000096  _P1_6                              helloworld
+     00000096  __SFR96                            helloworld
+     00000097  _P1_7                              helloworld
+     00000097  __SFR97                            helloworld
+     00000098  _ENCIF_0                           helloworld
+     00000098  _S0CON                             helloworld
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000099  _ENCIF_1                           helloworld
+     00000099  __SFR99                            helloworld
+     0000009A  _IEN2                              helloworld
+     0000009B  _S1CON                             helloworld
+     0000009C  _T2CT                              helloworld
+     0000009D  _T2PR                              helloworld
+     0000009E  _T2CTL                             helloworld
+     0000009F  __SFR9F                            helloworld
+     000000A0  _P2                                helloworld
+     000000A0  _P2_0                              helloworld
+     000000A1  _P2_1                              helloworld
+     000000A1  _WORIRQ                            helloworld
+     000000A2  _P2_2                              helloworld
+     000000A2  _WORCTL                            delay
+     000000A2  _WORCTRL                           helloworld
+     000000A3  _P2_3                              helloworld
+     000000A3  _WOREVT0                           helloworld
+     000000A4  _P2_4                              helloworld
+     000000A4  _WOREVT1                           helloworld
+     000000A5  _P2_5                              helloworld
+     000000A5  _WORTIME0                          helloworld
+     000000A6  _P2_6                              helloworld
+     000000A6  _WORTIME1                          helloworld
+     000000A7  _P2_7                              helloworld
+     000000A7  __SFRA7                            helloworld
+     000000A8  _IEN0                              helloworld
+     000000A8  _RFTXRXIE                          helloworld
+     000000A9  _ADCIE                             helloworld
+     000000A9  _IP0                               helloworld
+     000000AA  _URX0IE                            helloworld
+     000000AA  __SFRAA                            helloworld
+     000000AB  _FWT                               helloworld
+     000000AB  _URX1IE                            helloworld
+     000000AC  _ENCIE                             helloworld
+     000000AC  _FADDRL                            helloworld
+     000000AD  _FADDRH                            helloworld
+     000000AD  _STIE                              helloworld
+     000000AE  _FCTL                              helloworld
+     000000AF  _EA                                helloworld
+     000000AF  _FWDATA                            helloworld
+     000000B0  __SFRB0                            helloworld
+     000000B1  _ENCDI                             helloworld
+     000000B2  _ENCDO                             helloworld
+     000000B3  _ENCCS                             helloworld
+     000000B4  _ADCCON1                           helloworld
+     000000B5  _ADCCON2                           helloworld
+     000000B6  _ADCCON3                           helloworld
+     000000B7  __SFRB7                            helloworld
+     000000B8  _DMAIE                             helloworld
+     000000B8  _IEN1                              helloworld
+     000000B9  _IP1                               helloworld
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000B9  _T1IE                              helloworld
+     000000BA  _ADCL                              helloworld
+     000000BA  _T2IE                              helloworld
+     000000BB  _ADCH                              helloworld
+     000000BB  _T3IE                              helloworld
+     000000BC  _RNDL                              helloworld
+     000000BC  _T4IE                              helloworld
+     000000BD  _P0IE                              helloworld
+     000000BD  _RNDH                              helloworld
+     000000BE  _SLEEP                             helloworld
+     000000BF  __SFRBF                            helloworld
+     000000C0  _DMAIF                             helloworld
+     000000C0  _IRCON                             helloworld
+     000000C1  _T1IF                              helloworld
+     000000C1  _U0DBUF                            helloworld
+     000000C2  _T2IF                              helloworld
+     000000C2  _U0BAUD                            helloworld
+     000000C3  _T3IF                              helloworld
+     000000C3  __SFRC3                            helloworld
+     000000C4  _T4IF                              helloworld
+     000000C4  _U0UCR                             helloworld
+     000000C5  _P0IF                              helloworld
+     000000C5  _U0GCR                             helloworld
+     000000C6  _CLKCON                            helloworld
+     000000C7  _MEMCTR                            helloworld
+     000000C7  _STIF                              helloworld
+     000000C8  __SFRC8                            helloworld
+     000000C9  _WDCTL                             helloworld
+     000000CA  _T3CNT                             helloworld
+     000000CB  _T3CTL                             helloworld
+     000000CC  _T3CCTL0                           helloworld
+     000000CD  _T3CC0                             helloworld
+     000000CE  _T3CCTL1                           helloworld
+     000000CF  _T3CC1                             helloworld
+     000000D0  _P                                 helloworld
+     000000D0  _PSW                               helloworld
+     000000D1  _DMAIRQ                            helloworld
+     000000D1  _F1                                helloworld
+     000000D2  _DMA1CFGL                          helloworld
+     000000D2  _OV                                helloworld
+     000000D3  _DMA1CFGH                          helloworld
+     000000D3  _RS0                               helloworld
+     000000D4  _DMA0CFGL                          helloworld
+     000000D4  _RS1                               helloworld
+     000000D5  _DMA0CFGH                          helloworld
+     000000D5  _F0                                helloworld
+     000000D6  _AC                                helloworld
+     000000D6  _DMAARM                            helloworld
+     000000D7  _CY                                helloworld
+     000000D7  _DMAREQ                            helloworld
+     000000D8  _T3OVFIF                           helloworld
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000D8  _TIMIF                             helloworld
+     000000D9  _RFD                               helloworld
+     000000D9  _T3CH0IF                           helloworld
+     000000DA  _T1CC0L                            helloworld
+     000000DA  _T3CH1IF                           helloworld
+     000000DB  _T1CC0H                            helloworld
+     000000DB  _T4OVFIF                           helloworld
+     000000DC  _T1CC1L                            helloworld
+     000000DC  _T4CH0IF                           helloworld
+     000000DD  _T1CC1H                            helloworld
+     000000DD  _T4CH1IF                           helloworld
+     000000DE  _OVFIM                             helloworld
+     000000DE  _T1CC2L                            helloworld
+     000000DF  _T1CC2H                            helloworld
+     000000E0  _ACC                               helloworld
+     000000E0  _ACC_0                             helloworld
+     000000E1  _ACC_1                             helloworld
+     000000E1  _RFST                              helloworld
+     000000E2  _ACC_2                             helloworld
+     000000E2  _T1CNTL                            helloworld
+     000000E3  _ACC_3                             helloworld
+     000000E3  _T1CNTH                            helloworld
+     000000E4  _ACC_4                             helloworld
+     000000E4  _T1CTL                             helloworld
+     000000E5  _ACC_5                             helloworld
+     000000E5  _T1CCTL0                           helloworld
+     000000E6  _ACC_6                             helloworld
+     000000E6  _T1CCTL1                           helloworld
+     000000E7  _ACC_7                             helloworld
+     000000E7  _T1CCTL2                           helloworld
+     000000E8  _IRCON2                            helloworld
+     000000E8  _P2IF                              helloworld
+     000000E9  _RFIF                              helloworld
+     000000E9  _UTX0IF                            helloworld
+     000000EA  _T4CNT                             helloworld
+     000000EA  _UTX1IF                            helloworld
+     000000EB  _P1IF                              helloworld
+     000000EB  _T4CTL                             helloworld
+     000000EC  _T4CCTL0                           helloworld
+     000000EC  _WDTIF                             helloworld
+     000000ED  _T4CC0                             helloworld
+     000000EE  _T4CCTL1                           helloworld
+     000000EF  _T4CC1                             helloworld
+     000000F0  _B                                 helloworld
+     000000F0  _B_0                               helloworld
+     000000F1  _B_1                               helloworld
+     000000F1  _PERCFG                            helloworld
+     000000F2  _ADCCFG                            helloworld
+     000000F2  _B_2                               helloworld
+     000000F3  _B_3                               helloworld
+     000000F3  _P0SEL                             helloworld
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000F4  _B_4                               helloworld
+     000000F4  _P1SEL                             helloworld
+     000000F5  _B_5                               _gptrget
+     000000F5  _P2SEL                             helloworld
+     000000F6  _B_6                               _gptrget
+     000000F6  _P1INP                             helloworld
+     000000F7  _B_7                               _gptrget
+     000000F7  _P2INP                             helloworld
+     000000F8  _ACTIVE                            helloworld
+     000000F8  _U1CSR                             helloworld
+     000000F9  _TX_BYTE                           helloworld
+     000000F9  _U1DBUF                            helloworld
+     000000FA  _RX_BYTE                           helloworld
+     000000FA  _U1BAUD                            helloworld
+     000000FB  _ERR                               helloworld
+     000000FB  _U1UCR                             helloworld
+     000000FC  _FE                                helloworld
+     000000FC  _U1GCR                             helloworld
+     000000FD  _P0DIR                             helloworld
+     000000FD  _SLAVE                             helloworld
+     000000FE  _P1DIR                             helloworld
+     000000FE  _RE                                helloworld
+     000000FF  _MODE                              helloworld
+     000000FF  _P2DIR                             helloworld
+     0000DF00  _SYNC1                             helloworld
+     0000DF01  _SYNC0                             helloworld
+     0000DF02  _MDMCTRL0H                         helloworld
+     0000DF02  _PKTLEN                            helloworld
+     0000DF03  _PKTCTRL1                          helloworld
+     0000DF04  _PKTCTRL0                          helloworld
+     0000DF05  _ADDR                              helloworld
+     0000DF06  _CHANNR                            helloworld
+     0000DF07  _FSCTRL1                           helloworld
+     0000DF08  _FSCTRL0                           helloworld
+     0000DF09  _FREQ2                             helloworld
+     0000DF0A  _FREQ1                             helloworld
+     0000DF0B  _FREQ0                             helloworld
+     0000DF0C  _MDMCFG4                           helloworld
+     0000DF0D  _MDMCFG3                           helloworld
+     0000DF0E  _MDMCFG2                           helloworld
+     0000DF0F  _MDMCFG1                           helloworld
+     0000DF10  _MDMCFG0                           helloworld
+     0000DF11  _DEVIATN                           helloworld
+     0000DF12  _MCSM2                             helloworld
+     0000DF13  _MCSM1                             helloworld
+     0000DF14  _MCSM0                             helloworld
+     0000DF15  _FOCCFG                            helloworld
+     0000DF16  _BSCFG                             helloworld
+     0000DF17  _AGCCTRL2                          helloworld
+     0000DF18  _AGCCTRL1                          helloworld
+     0000DF19  _AGCCTRL0                          helloworld
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000DF1A  _FREND1                            helloworld
+     0000DF1B  _FREND0                            helloworld
+     0000DF1C  _FSCAL3                            helloworld
+     0000DF1D  _FSCAL2                            helloworld
+     0000DF1E  _FSCAL1                            helloworld
+     0000DF1F  _FSCAL0                            helloworld
+     0000DF20  __XREGDF20                         helloworld
+     0000DF21  __XREGDF21                         helloworld
+     0000DF22  __XREGDF22                         helloworld
+     0000DF23  _TEST2                             helloworld
+     0000DF24  _TEST1                             helloworld
+     0000DF25  _TEST0                             helloworld
+     0000DF26  __XREGDF26                         helloworld
+     0000DF27  _PA_TABLE7                         helloworld
+     0000DF28  _PA_TABLE6                         helloworld
+     0000DF29  _PA_TABLE5                         helloworld
+     0000DF2A  _PA_TABLE4                         helloworld
+     0000DF2B  _PA_TABLE3                         helloworld
+     0000DF2C  _PA_TABLE2                         helloworld
+     0000DF2D  _PA_TABLE1                         helloworld
+     0000DF2E  _PA_TABLE0                         helloworld
+     0000DF2F  _IOCFG2                            helloworld
+     0000DF30  _IOCFG1                            helloworld
+     0000DF31  _IOCFG0                            helloworld
+     0000DF32  __XREGDF32                         helloworld
+     0000DF33  __XREGDF33                         helloworld
+     0000DF34  __XREGDF34                         helloworld
+     0000DF35  __XREGDF35                         helloworld
+     0000DF36  _PARTNUM                           helloworld
+     0000DF37  _VERSION                           helloworld
+     0000DF38  _FREQEST                           helloworld
+     0000DF39  _LQI                               helloworld
+     0000DF3A  _RSSI                              helloworld
+     0000DF3B  _MARCSTATE                         helloworld
+     0000DF3C  _PKTSTATUS                         helloworld
+     0000DF3D  _VCO_VC_DAC                        helloworld
+     0000DF40  _I2SCFG0                           helloworld
+     0000DF41  _I2SCFG1                           helloworld
+     0000DF42  _I2SDATL                           helloworld
+     0000DF43  _I2SDATH                           helloworld
+     0000DF44  _I2SWCNT                           helloworld
+     0000DF45  _I2SSTAT                           helloworld
+     0000DF46  _I2SCLKF0                          helloworld
+     0000DF47  _I2SCLKF1                          helloworld
+     0000DF48  _I2SCLKF2                          helloworld
+     0000DF80  __NA_P0                            helloworld
+     0000DF81  __NA_SP                            helloworld
+     0000DF82  __NA_DPL0                          helloworld
+     0000DF83  __NA_DPH0                          helloworld
+     0000DF84  __NA_DPL1                          helloworld
+     0000DF85  __NA_DPH1                          helloworld
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000DF86  _X_U0CSR                           helloworld
+     0000DF87  __NA_PCON                          helloworld
+     0000DF88  __NA_TCON                          helloworld
+     0000DF89  _X_P0IFG                           helloworld
+     0000DF8A  _X_P1IFG                           helloworld
+     0000DF8B  _X_P2IFG                           helloworld
+     0000DF8C  _X_PICTL                           helloworld
+     0000DF8D  _X_P1IEN                           helloworld
+     0000DF8E  __X_SFR8E                          helloworld
+     0000DF8F  _X_P0INP                           helloworld
+     0000DF90  __NA_P1                            helloworld
+     0000DF91  _X_RFIM                            helloworld
+     0000DF92  __NA_DPS                           helloworld
+     0000DF93  _X_MPAGE                           helloworld
+     0000DF94  __X_SFR94                          helloworld
+     0000DF95  __X_SFR95                          helloworld
+     0000DF96  __X_SFR96                          helloworld
+     0000DF97  __X_SFR97                          helloworld
+     0000DF98  __NA_S0CON                         helloworld
+     0000DF99  __X_SFR99                          helloworld
+     0000DF9A  __NA_IEN2                          helloworld
+     0000DF9B  __NA_S1CON                         helloworld
+     0000DF9C  _X_T2CT                            helloworld
+     0000DF9D  _X_T2PR                            helloworld
+     0000DF9E  _X_T2CTL                           helloworld
+     0000DF9F  __X_SFR9F                          helloworld
+     0000DFA0  __NA_P2                            helloworld
+     0000DFA1  _X_WORIRQ                          helloworld
+     0000DFA2  _X_WORCTRL                         helloworld
+     0000DFA3  _X_WOREVT0                         helloworld
+     0000DFA4  _X_WOREVT1                         helloworld
+     0000DFA5  _X_WORTIME0                        helloworld
+     0000DFA6  _X_WORTIME1                        helloworld
+     0000DFA7  __X_SFRA7                          helloworld
+     0000DFA8  __NA_IEN0                          helloworld
+     0000DFA9  __NA_IP0                           helloworld
+     0000DFAA  __X_SFRAA                          helloworld
+     0000DFAB  _X_FWT                             helloworld
+     0000DFAC  _X_FADDRL                          helloworld
+     0000DFAD  _X_FADDRH                          helloworld
+     0000DFAE  _X_FCTL                            helloworld
+     0000DFAF  _X_FWDATA                          helloworld
+     0000DFB0  __X_SFRB0                          helloworld
+     0000DFB1  _X_ENCDI                           helloworld
+     0000DFB2  _X_ENCDO                           helloworld
+     0000DFB3  _X_ENCCS                           helloworld
+     0000DFB4  _X_ADCCON1                         helloworld
+     0000DFB5  _X_ADCCON2                         helloworld
+     0000DFB6  _X_ADCCON3                         helloworld
+     0000DFB7  __X_SFRB7                          helloworld
+     0000DFB8  __NA_IEN1                          helloworld
+ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000DFB9  __NA_IP1                           helloworld
+     0000DFBA  _X_ADCL                            helloworld
+     0000DFBB  _X_ADCH                            helloworld
+     0000DFBC  _X_RNDL                            helloworld
+     0000DFBD  _X_RNDH                            helloworld
+     0000DFBE  _X_SLEEP                           helloworld
+     0000DFBF  __X_SFRBF                          helloworld
+     0000DFC0  __NA_IRCON                         helloworld
+     0000DFC1  _X_U0DBUF                          helloworld
+     0000DFC2  _X_U0BAUD                          helloworld
+     0000DFC3  __X_SFRC3                          helloworld
+     0000DFC4  _X_U0UCR                           helloworld
+     0000DFC5  _X_U0GCR                           helloworld
+     0000DFC6  _X_CLKCON                          helloworld
+     0000DFC7  _X_MEMCTR                          helloworld
+     0000DFC8  __X_SFRC8                          helloworld
+     0000DFC9  _X_WDCTL                           helloworld
+     0000DFCA  _X_T3CNT                           helloworld
+     0000DFCB  _X_T3CTL                           helloworld
+     0000DFCC  _X_T3CCTL0                         helloworld
+     0000DFCD  _X_T3CC0                           helloworld
+     0000DFCE  _X_T3CCTL1                         helloworld
+     0000DFCF  _X_T3CC1                           helloworld
+     0000DFD0  __NA_PSW                           helloworld
+     0000DFD1  _X_DMAIRQ                          helloworld
+     0000DFD2  _X_DMA1CFGL                        helloworld
+     0000DFD3  _X_DMA1CFGH                        helloworld
+     0000DFD4  _X_DMA0CFGL                        helloworld
+     0000DFD5  _X_DMA0CFGH                        helloworld
+     0000DFD6  _X_DMAARM                          helloworld
+     0000DFD7  _X_DMAREQ                          helloworld
+     0000DFD8  _X_TIMIF                           helloworld
+     0000DFD9  _X_RFD                             helloworld
+     0000DFDA  _X_T1CC0L                          helloworld
+     0000DFDB  _X_T1CC0H                          helloworld
+     0000DFDC  _X_T1CC1L                          helloworld
+     0000DFDD  _X_T1CC1H                          helloworld
+     0000DFDE  _X_T1CC2L                          helloworld
+     0000DFDF  _X_T1CC2H                          helloworld
+     0000DFE0  __NA_ACC                           helloworld
+     0000DFE1  _X_RFST                            helloworld
+     0000DFE2  _X_T1CNTL                          helloworld
+     0000DFE3  _X_T1CNTH                          helloworld
+     0000DFE4  _X_T1CTL                           helloworld
+     0000DFE5  _X_T1CCTL0                         helloworld
+     0000DFE6  _X_T1CCTL1                         helloworld
+     0000DFE7  _X_T1CCTL2                         helloworld
+     0000DFE8  __NA_IRCON2                        helloworld
+     0000DFE9  _X_RFIF                            helloworld
+     0000DFEA  _X_T4CNT                           helloworld
+     0000DFEB  _X_T4CTL                           helloworld
+ASxxxx Linker V03.00 + NoICE + sdld,  page 11.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000DFEC  _X_T4CCTL0                         helloworld
+     0000DFED  _X_T4CC0                           helloworld
+     0000DFEE  _X_T4CCTL1                         helloworld
+     0000DFEF  _X_T4CC1                           helloworld
+     0000DFF0  __NA_B                             helloworld
+     0000DFF1  _X_PERCFG                          helloworld
+     0000DFF2  _X_ADCCFG                          helloworld
+     0000DFF3  _X_P0SEL                           helloworld
+     0000DFF4  _X_P1SEL                           helloworld
+     0000DFF5  _X_P2SEL                           helloworld
+     0000DFF6  _X_P1INP                           helloworld
+     0000DFF7  _X_P2INP                           helloworld
+     0000DFF8  _X_U1CSR                           helloworld
+     0000DFF9  _X_U1DBUF                          helloworld
+     0000DFFA  _X_U1BAUD                          helloworld
+     0000DFFB  _X_U1UCR                           helloworld
+     0000DFFC  _X_U1GCR                           helloworld
+     0000DFFD  _X_P0DIR                           helloworld
+     0000DFFE  _X_P1DIR                           helloworld
+     0000DFFF  _X_P2DIR                           helloworld
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 12.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+REG_BANK_0                          00000000    00000008 =           8. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 13.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+DSEG                                00000000    00000080 =         128. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 14.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+OSEG                                00000011    0000000B =          11. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000011  ___memcpy_PARM_2                   __memcpy
+     00000011  __divsint_PARM_2                   _divuint
+     00000011  __divuint_PARM_2                   _divuint
+     00000011  __gptrput_PARM_2                   _gptrput
+     00000011  __mulint_PARM_2                    _mulint
+     00000011  _radioConfigure_PARM_2             radio
+     00000014  ___memcpy_PARM_3                   __memcpy
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 15.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+SSEG                                0000001C    000000E4 =         228. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000001C  __start__stack                     helloworld
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 16.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+XSEG                                0000F000    0000001C =          28. bytes (REL,CON,XDATA)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+D:   0000F008  _radioPktBuffer                    helloworld
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 17.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+HOME                                00000000    00000089 =         137. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000086  __sdcc_program_startup             helloworld
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 18.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT0                             00000089    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000089  __sdcc_gsinit_startup              
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 19.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT2                             0000008C    0000000A =          10. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 20.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT3                             00000096    00000022 =          34. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000096  __mcs51_genXINIT                   
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 21.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT4                             000000B8    0000002A =          42. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000B8  __mcs51_genRAMCLEAR                
+C:   000000BE  __mcs51_genXRAMCLEAR               
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 22.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT                              000000E2    0000000C =          12. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 23.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             000000EE    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 24.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                000000F1    000006FE =        1790. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000F1  _dmaRadioSetup                     radio
+C:   000001C5  _SetMainClkSrc                     radio
+C:   000001E6  _radioConfigure                    radio
+C:   00000540  _delayms                           delay
+C:   00000575  _delayus                           delay
+C:   0000059D  _clk_wait                          delay
+C:   00000624  _rf_IRQ                            helloworld
+C:   00000643  _main                              helloworld
+C:   000006E1  ___memcpy                          __memcpy
+C:   00000736  __gptrput                          _gptrput
+C:   00000751  __mulint                           _mulint
+C:   00000751  __mulint_dummy                     _mulint
+C:   0000076E  __divuint                          _divuint
+C:   00000797  __gptrget                          _gptrget
+C:   000007B3  __divsint                          _divsint
+C:   000007EB  __sdcc_external_startup            _startup
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 25.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CONST                               000007EF    00000006 =           6. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 26.
+
+Files Linked                              [ module(s) ]
+
+../../lib/radio.rel                       [  ]
+../../lib/delay.rel                       [  ]
+helloworld.rel                            [  ]
+
+
+Libraries Linked                          [ object file ]
+
+/usr/bin/../share/sdcc/lib/small/mcs51.lib
+                                          [ crtclear.rel ]
+/usr/bin/../share/sdcc/lib/small/libsdcc.lib
+                                          [ __memcpy.rel ]
+/usr/bin/../share/sdcc/lib/small/mcs51.lib
+                                          [ crtxinit.rel ]
+/usr/bin/../share/sdcc/lib/small/libsdcc.lib
+                                          [ _gptrput.rel ]
+/usr/bin/../share/sdcc/lib/small/libint.lib
+                                          [ _mulint.rel ]
+/usr/bin/../share/sdcc/lib/small/mcs51.lib
+                                          [ crtxclear.rel ]
+/usr/bin/../share/sdcc/lib/small/libint.lib
+                                          [ _divuint.rel ]
+/usr/bin/../share/sdcc/lib/small/mcs51.lib
+                                          [ crtstart.rel ]
+/usr/bin/../share/sdcc/lib/small/libsdcc.lib
+                                          [ _gptrget.rel ]
+/usr/bin/../share/sdcc/lib/small/libint.lib
+                                          [ _divsint.rel ]
+/usr/bin/../share/sdcc/lib/small/libsdcc.lib
+                                          [ _startup.rel ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 27.
+
+User Base Address Definitions
+
+HOME = 0x0000
+XSEG = 0xf000
+PSEG = 0xf000
+ISEG = 0x0000
+BSEG = 0x0000
+
+
